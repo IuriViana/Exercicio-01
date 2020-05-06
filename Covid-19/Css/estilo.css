@@ -1,0 +1,36 @@
+/*Fixando o rodapé no fim da página*/
+html, body{
+margin: 0;
+padding: 0;
+height: 100%;
+bottom: 0;
+}
+body{
+    background-color: rgb(78, 77, 77);
+}
+.Tudo{
+    min-height: 100%;
+}
+/*Definindo estilo ao rodapé*/
+footer{
+    background-color: rgb(36, 35, 35);
+    height: 70px;
+    box-shadow: 0px -5px rgb(1, 92, 42);
+    padding: 1px;
+}
+header{
+    position: sticky;
+    top: 0px;
+    /*Os dois comandos a cima deixa o header fixo no topo*/
+    background-color: rgb(36, 35, 35);
+    height: 60px;
+    box-shadow: 0 5px rgb(4, 151, 70);
+}
+section{
+    background-color: white;
+    
+}
+
+
+
+
