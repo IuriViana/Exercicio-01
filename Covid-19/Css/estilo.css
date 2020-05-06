@@ -6,7 +6,7 @@ height: 100%;
 bottom: 0;
 }
 body{
-    background-color: rgb(78, 77, 77);
+    background-color: rgb(107, 105, 105);
 }
 .Tudo{
     min-height: 100%;
@@ -14,7 +14,7 @@ body{
 /*Definindo estilo ao rodapé*/
 footer{
     background-color: rgb(36, 35, 35);
-    height: 70px;
+    margin-top: 30px;
     box-shadow: 0px -5px rgb(1, 92, 42);
     padding: 1px;
 }
@@ -22,13 +22,41 @@ header{
     position: sticky;
     top: 0px;
     /*Os dois comandos a cima deixa o header fixo no topo*/
-    background-color: rgb(36, 35, 35);
-    height: 60px;
+    background-color: rgb(53, 52, 52);
     box-shadow: 0 5px rgb(4, 151, 70);
 }
+.head{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 240px;
+    height: 90px;
+}
+
 section{
     background-color: white;
     
+}
+
+#Text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:rgb(192, 184, 184);
+}
+
+.disco{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+   
+}
+
+.disc{
+    display: inline-flex;
+    position: relative;
+    font-size: 17px;
+    margin-left: 35px;
+    margin-top: 8px;
 }
 
 
