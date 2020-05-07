@@ -19,6 +19,7 @@ body{
 .Tudo{
     min-height: 100%;
 }
+
 /*Definindo estilo ao rodapé*/
 footer{
     background-color: rgb(36, 35, 35);
@@ -29,12 +30,22 @@ footer{
 header{
     position: sticky;
     top: 0px;
-    /*Os dois comandos a cima deixa o header fixo no topo*/
+    /*Os dois comandos a cima deixa o header fixo no topo, achei bem bacana.*/
+    
+    /*Preciso entender melhor algumas position, sentir dificuldades em posicionar
+    alguns elementos no documento*/
+
+    /*Pelo visto o sticky é um mistura de absolute e relative, 
+    ele pode se mover livremente, de maneira absoluta pelo documento pai,
+    setando o top como 0 ele sempre aparece por cima.*/
+
     background-color: rgb(53, 52, 52);
     box-shadow: 0 5px rgb(4, 151, 70);
     margin-top: -1px;
-   
 }
+
+
+/*Definindo estilo do Menu*/
 .Menu{
     display: inline-flex;
 }
@@ -62,6 +73,8 @@ header{
     color: rgb(91, 92, 91);
 }
 
+/*Logo do menu, aparecerá em telas de maior resolução*/
+
 .head{
     margin-top: 25px;
     margin-left: 15px;
@@ -75,6 +88,9 @@ section{
     
 }
 
+
+/* Texto do footer*/
+
 #Text{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -82,13 +98,13 @@ section{
     color:rgb(192, 184, 184);
 }
 
+/*logo do discord*/
 .disco{
     width: 30px;
     height: 30px;
     position: absolute;
    
 }
-
 .disc{
     display: inline-flex;
     position: relative;
@@ -97,6 +113,7 @@ section{
     margin-top: 8px;
 }
 
+/*Configurando títulos:*/
 .título{
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
@@ -126,41 +143,16 @@ section{
 }
 
 
+/*Configurando escrita*/
 .Text2{
-    text-align: left;
+    text-align: justify;
     font-family: 'Oxygen', sans-serif;
     margin-left: 20px;
     margin-right: 20px;
     font-size: 20px;
 }
 
-
-
-
-
-p.coronaF{
-    visibility: hidden;
-   position: absolute;
-   width: 300px;
-   text-align: left;
-   background-color: grey;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 15px;
-   margin-top: 295px;
-   margin-left: -340px;
-}
-p.pangolimF{
-    visibility: hidden;
-   position: absolute;
-   width: 300px;
-   text-align: left;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 15px;
-   background-color: rgb(153, 152, 152);
-   margin-top: 295px;
-   margin-left: 340px;
-}
-
+/*Configurando as figuras fundamentais do site*/
 .corona{
     width: 300px;
     margin-top: 90px;
@@ -179,6 +171,8 @@ p.pangolimF{
     margin-bottom: 50px;
 }
 
+/*Centralizando as imagens, essa forma é bem bacana, consegue centralizar qualquer
+coisa. Mas parando para pensar em alguns casos eu posso usar da tabulação <table>, tentarei da próxima vez.*/
 .Image{
     display: flex;
     justify-content: center;
@@ -186,6 +180,11 @@ p.pangolimF{
 }
 
 
+
+
+
+
+/*Configurando CSS para outras resoluções*/
 @media(max-width: 950px){
     .head{
         width: 1px;
@@ -205,9 +204,6 @@ p.pangolimF{
         font-size: 33px;
     }
 
-
-
-
 }
 
 @media(max-width: 650px){
@@ -223,7 +219,6 @@ p.pangolimF{
     }
 
 }
-
 @media(max-width: 550px){
     .título{
         font-size: 20px;
@@ -248,5 +243,7 @@ p.pangolimF{
     .esquema{
         width: 65%;
     }
-
 }
+
+
+/*Tentando criar legendas em imagens, ou uma galeria de fotos*/ 
