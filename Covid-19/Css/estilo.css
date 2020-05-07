@@ -163,6 +163,13 @@ p.pangolimF{
     margin-top: 90px;
 }
 
+.esquema{
+    width: 500px;
+    margin-top: 90px;
+    border: solid 3px black;
+    margin-bottom: 50px;
+}
+
 .Image{
     display: flex;
     justify-content: center;
