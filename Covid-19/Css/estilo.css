@@ -222,18 +222,30 @@ p.pangolimF{
         height: 150px;
     }
 
+}
 
-@media(max-width: 250px){
+@media(max-width: 300px){
+    .título{
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    
+    .título2{
+        font-size: 20px;
+        margin-left: 25px;
+    }
+
     .corona{
-        width: 150px;
-        margin-top: 90px;
+        width: 40%;
     }
 
     .pangolim{
-        width:150px;
-        margin-left: 20px;
-        margin-top: 90px;
-        height: 150px;
+        width: 40%;
     }
 
+    .esquema{
+        width: 50%x;
+        
+    }
 
+}
