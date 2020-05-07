@@ -1,3 +1,11 @@
+
+/*Importando fonte do google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+
+
 /*Fixando o rodapé no fim da página*/
 html, body{
 margin: 0;
@@ -14,7 +22,7 @@ body{
 /*Definindo estilo ao rodapé*/
 footer{
     background-color: rgb(36, 35, 35);
-    margin-top: 30px;
+    margin-top: 20px;
     box-shadow: 0px -5px rgb(1, 92, 42);
     padding: 1px;
 }
@@ -24,17 +32,46 @@ header{
     /*Os dois comandos a cima deixa o header fixo no topo*/
     background-color: rgb(53, 52, 52);
     box-shadow: 0 5px rgb(4, 151, 70);
+    margin-top: -1px;
+   
 }
+.Menu{
+    display: inline-flex;
+}
+
+.Menu ul{
+    margin-left: 200px;
+    list-style: none;
+}
+.Menu li{
+    display: inline-flex;
+}
+
+.Menu a{
+    text-decoration: none;
+    color: rgb(173, 179, 176);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-top: -30px;
+    margin-right: 20px;
+}
+.Menu a.active{
+    color: rgb(25, 158, 102);
+}
+.Menu a:hover{
+    color: rgb(91, 92, 91);
+}
+
 .head{
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 15px;
-    width: 240px;
-    height: 90px;
+    width: 230px;
+    height: 70px;
 }
 
 section{
     background-color: white;
-    
+    margin-top: 20px;
 }
 
 #Text{
@@ -59,6 +96,14 @@ section{
     margin-top: 8px;
 }
 
+.título{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: rgb(73, 72, 72);
+    margin-left: 50px;
+    border-bottom: 5px solid darkslategray;
+    width: 300px;
+}
 
 
 
