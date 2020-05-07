@@ -224,7 +224,7 @@ p.pangolimF{
 
 }
 
-@media(max-width: 450px){
+@media(max-width: 550px){
     .título{
         font-size: 20px;
         margin-left: 25px;
