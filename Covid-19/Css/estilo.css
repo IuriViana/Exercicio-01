@@ -241,6 +241,29 @@ p.pangolimF{
         height: 150px;
     }
 
+
+@media(max-width: 250px){
+    .corona{
+        width: 150px;
+        margin-top: 90px;
+    }
+
+    .pangolim{
+        width:150px;
+        margin-left: 20px;
+        margin-top: 90px;
+        height: 150px;
+    }
+
+p.coronaF{
+    visibility: hidden;
+}
+p.pangolimF{
+    visibility: hidden;
+}
+
+}
+
     
 p.coronaF{
 
