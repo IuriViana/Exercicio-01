@@ -186,25 +186,6 @@ p.pangolimF{
 }
 
 
-.pangolim:hover{
-    cursor: pointer;
-}
-
-.pangolim:hover ~ p.pangolimF{
-    visibility: visible;
-}
-
-.corona:hover{
-    cursor: pointer;
-}
-
-.corona:hover ~ p.coronaF{
-    visibility: visible;
-    
-}
-
-
-
 @media(max-width: 950px){
     .head{
         width: 1px;
@@ -255,31 +236,4 @@ p.pangolimF{
         height: 150px;
     }
 
-p.coronaF{
-    visibility: hidden;
-}
-p.pangolimF{
-    visibility: hidden;
-}
-
-}
-
-    
-p.coronaF{
-
-   width: 200px;
-   font-size: 13px;
-   margin-top: 207px;
-   margin-left: -220px;
-}
-p.pangolimF{
-
-   width: 200px;
-   font-size: 13px;
-   margin-top: 220px;
-   margin-left: 220px;
-}
- 
-
-}
 
