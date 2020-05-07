@@ -237,15 +237,16 @@ p.pangolimF{
 
     .corona{
         width: 40%;
+        height: 200px;
     }
 
     .pangolim{
         width: 40%;
+        height: 200px;
     }
 
     .esquema{
-        width: 50%x;
-        
+        width: 65%;
     }
 
 }
