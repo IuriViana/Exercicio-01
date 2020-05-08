@@ -4,8 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
 
 
-
-
 /*Fixando o rodapé no fim da página*/
 html, body{
 margin: 0;
@@ -162,6 +160,13 @@ section{
     height: 225px;
     margin-left: 40px;
     margin-top: 90px;
+    
+    object-fit: cover;
+     /*Tag bacana, object-fit: cover; vai servir para distorcer as imagens, posso 
+    determinar o tamnho do jeito que eu queira sem distorção. 
+    Tag adicional que eu posso utilizar é o object-position.*/
+
+
 }
 
 .esquema{
@@ -178,12 +183,6 @@ coisa. Mas parando para pensar em alguns casos eu posso usar da tabulação <tab
     justify-content: center;
     align-items: center;
 }
-
-
-
-
-
-
 /*Configurando CSS para outras resoluções*/
 @media(max-width: 950px){
     .head{
@@ -224,20 +223,22 @@ coisa. Mas parando para pensar em alguns casos eu posso usar da tabulação <tab
         font-size: 20px;
         margin-left: 25px;
     }
-    
+    .Text2{
+        text-align: left;
+    }
     .título2{
         font-size: 20px;
         margin-left: 25px;
     }
-
     .corona{
         width: 40%;
-        height: 200px;
+        height: 160px;
+        object-fit: cover;
     }
-
     .pangolim{
         width: 40%;
-        height: 200px;
+        height: 160px;
+        object-fit: cover;
     }
 
     .esquema{
