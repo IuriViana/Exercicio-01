@@ -243,7 +243,14 @@ coisa. Mas parando para pensar em alguns casos eu posso usar da tabulação <tab
     .esquema{
         width: 65%;
     }
+    .twitter{
+       width: 500;
+       height: 550;
+    }
 }
 
-
-/*Tentando criar legendas em imagens, ou uma galeria de fotos*/ 
+.twitter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
