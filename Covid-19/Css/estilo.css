@@ -42,6 +42,13 @@ header{
     margin-top: -1px;
 }
 
+.Cent{
+    margin-top: -30px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
 
 /*Definindo estilo do Menu*/
 .Menu{
@@ -49,7 +56,6 @@ header{
 }
 
 .Menu ul{
-    margin-left: 200px;
     list-style: none;
 }
 .Menu li{
@@ -160,7 +166,8 @@ section{
     height: 225px;
     margin-left: 40px;
     margin-top: 90px;
-    
+
+   
     object-fit: cover;
      /*Tag bacana, object-fit: cover; vai servir para distorcer as imagens, posso 
     determinar o tamnho do jeito que eu queira sem distorção. 
